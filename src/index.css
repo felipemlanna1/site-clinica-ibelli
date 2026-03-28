@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --gold:#C9A96E;--gold-d:#B08D52;--gold-glow:rgba(201,169,110,0.12);
+  --cream:#FBF8F4;--cream-dark:#F0EBE3;
+  --dark:#0E1117;--surface:#161A22;--card:#1C2029;
+  --white:#F8F6F2;--gray:#7A8290;--text:#9AA0AE;
+  --font-head:'Cormorant Garamond',serif;--font-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--cream);color:#4A5060;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3{color:var(--dark);font-family:var(--font-head)}
+a{text-decoration:none;color:inherit}
+.sp{padding:100px 24px}
+.mx{max-width:1080px;margin:0 auto}
+::selection{background:var(--gold);color:var(--white)}
